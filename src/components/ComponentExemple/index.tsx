@@ -1,5 +1,9 @@
 import { Container } from './styles'
 
 export const ComponentExemple = () => {
-  return <Container>ComponentExemple</Container>
+  return (
+    <Container>
+      <h1>ComponentExemple</h1>
+    </Container>
+  )
 }
